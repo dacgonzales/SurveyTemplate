@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+	<HEAD>
+		<TITLE>Datassential Research Survey</TITLE>
+		<SCRIPT LANGUAGE="javascript" SRC="/js/browserdetect.js"></SCRIPT>
+		<SCRIPT LANGUAGE="javascript" SRC="/js/scripts.js"></SCRIPT>
+		<SCRIPT LANGUAGE="Javascript">
+		browser_detect();
+		var queryStr;
+		var resp_id;
+		var hid;
+		var tid;
+		queryStr = "";
+		resp_id = getVar("resp_id");
+		hid = getVar("hid");
+		tid = getVar("tid");
+		subsid = getVar("subsid");
+		if(subsid != ""){
+			if(queryStr != "")queryStr = queryStr + "&";
+			queryStr = queryStr + "subsid=" + subsid;
+			}
+		if(resp_id != ""){
+			if(queryStr != "")queryStr = queryStr + "&";
+			queryStr = queryStr + "resp_id=" + resp_id;
+			}
+		if(hid != ""){
+			if(queryStr != "")queryStr = queryStr + "&";
+			queryStr = queryStr + "hid=" + hid;
+			}
+		if(tid != ""){
+			if(queryStr != "")queryStr = queryStr + "&";
+			queryStr = queryStr + "tid=" + tid;
+			}
+		if (old) {
+			if(queryStr != "")queryStr = queryStr + "&";
+			queryStr = queryStr + "surveycur=-2";
+		}
+		window.location="index.asp?"+queryStr;
+		</SCRIPT>
+	</HEAD>
+	<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#FF0000" VLINK="#800000" ALINK="#FF00FF">
+		detecting your browser version, please wait (you should be redirected within a 
+		few seconds)...
+	</BODY>
+</HTML>

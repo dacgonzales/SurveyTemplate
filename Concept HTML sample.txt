@@ -1,0 +1,56 @@
+  CONCEPT with text statement only
+  
+  <div class="concept-Statement">
+        <h5><p class="lead">Please read the following statement about the CHEF PIERRE brand carefully.  When you’re done reading, please click next.</p></h5>
+
+        <div class="concept-details">
+            <p>
+                Founded in 1922, Chef Pierre® pie company has been dedicated exclusively to creating high quality pies for nearly 100 years.
+            </p>
+            <p>
+
+                Located in the heartland of America in Traverse City, Michigan, we are proud to locally source much of our fresh, delicious fruits as well as employ local, hard-working folks who help us bake today’s most delicious and time-honored pie offerings.
+
+            </p>
+        </div>
+    </div>
+	
+	-----------
+ 
+ CONCEPT with single image
+ 
+ <div class="concept-Statement">
+        <div class="concept-details">           
+           <div class="image-concept">				 
+                <img src="images/Img1.jpg" class="img-thumbnail img-responsive" id="img1" />
+            </div>
+        </div>
+    </div>
+	
+	-------------
+
+CONCEPT with 4 images 2 per row.
+
+ <div class="concept-Statement">
+        <div class="concept-details">           
+           <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <span>Board A</span>
+                    <img src="images/Img1.jpg" class="img-thumbnail img-responsive" id="Img1" />
+                </div>
+                <div class="clearfix visible-xs-block"></div>
+                <div class="col-md-6 col-sm-12">
+                    <span>Board B</span>
+                    <img src="images/Img2.jpg" class="img-thumbnail img-responsive" id="Img2" />
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <span>Board C</span>
+                    <img src="images/Img3.jpg" class="img-thumbnail img-responsive" id="Img3" />
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <span>Board D</span>
+                    <img src="images/Img4.jpg" class="img-thumbnail img-responsive" id="Img4" />
+                </div>
+            </div>
+        </div>
+    </div>

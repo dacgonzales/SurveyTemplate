@@ -1,0 +1,398 @@
+body {
+  	font-family: arial,helvetica,sans-serif;
+	font-size: 11px;
+	/*
+	background-color:#f0f0f0;
+	*/
+	background-color: #416578;	
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+}
+a:link {
+	/*color: #014E86;*/
+	color:Red;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:visited {
+	color: #014E86;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover {
+	/*color: #F89321;*/
+	color:Red;
+	text-decoration: underline;
+}
+td, textarea, input {
+  font-family:arial,helvetica,sans-serif;
+  font-size:11px;
+}
+textarea {
+	width: 94%;
+	height: 50px;
+}
+
+#main {
+	border: 1px solid #004D85;
+	background-color: #ffffff;
+	width: 640px;
+}
+
+#header {
+	background-color: #EAEAEA;
+	/*
+	padding-top: 5px;
+	padding-bottom: 7px;
+	padding-left: 20px;
+	padding-right: 20px;
+*/
+	width: 640px;
+}
+#next 
+{
+	border: 0px solid #004D85;
+	background-image: url('../images/footer.gif');
+	height:50px;width:640px;
+	
+	/*background-repeat: no-repeat;*/
+	
+}
+#img_next
+{
+padding-top:10px;
+}
+#header {
+	border-bottom: 1px solid #004D85;
+	/*background-image: url(/images/surveyinterface/survey200408/headerbarbackground.jpg	);*/
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+#headerdrop {
+	background-image: url(/images/surveyinterface/survey200408/headerbardropshadow.gif	);
+	background-repeat: repeat-x;
+	background-position: right top;
+}
+/*
+#next {
+	border-top: 1px solid #004D85;
+	background-image: url(/images/surveyinterface/survey200408/nextbarbackground.jpg	);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+*/
+#questionarea {
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid #fe9758;
+	background-color: #fefaea;
+/*
+	border: 1px solid #E0A154;
+	background-color: #FBF4F0;
+*/
+}
+#questionarea2 {
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid #E0A154;
+	background-color: #FFFFFF;
+}
+/* All divs */
+.question,.concept, .message, .interviewer, .answer {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+/*
+  margin-top: 10px;
+  margin-bottom: 5px;
+*/
+  padding-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 20px;	
+}
+.question {
+	width:548px;
+	background-color:#3c67cc;
+	border:1px solid #000000;
+	border-bottom:0px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+/*
+	background-color:#CCDBE7;
+	border:1px solid #487DA4;
+*/
+	/*border: 1px solid gray;
+	background-color: #427BA5;
+	color: #FFFFFF;*/
+	font-weight: bold;
+	color:#FFFFFF;
+}
+.answer {
+  width: 100%;
+/*
+  padding-left: 50px;
+  padding-right:50px;
+*/
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom:0;
+  margin-bottom: 10px;
+	border:1px solid #000000;
+}
+.answer_20080403 {
+  width: 100%;
+  padding-left: 0px;
+  padding-right:10px;
+  margin-bottom: 10px;  
+}
+.answer_1207 {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 10px;  
+}
+.answer_1207_1 {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 10px;  
+}
+.concept {
+  background-color:#F5EFD3;
+  border:1px solid gray;
+  margin-bottom: 10px;
+}
+.concepthead {
+  font-weight: bold;
+  color: #004D85;
+}
+.conceptpicture {
+  border: 1px solid gray; 
+  margin-left: 10px;
+}
+.message {
+  text-align:center;
+  background-color:#C7D8DF;
+  border:1px solid gray;
+  margin-bottom: 10px;
+}
+
+.interviewer {
+	font-style: italic;
+	color: #666666;
+	background-color:#EAEAEA;
+	border:1px solid #487DA4;
+	}
+/* All form elements */
+.checkboxInput, .totalNoneInput, .radioInput, .radioSlideScaleLabelOffsetInput, .slideScaleInput, .slideScaleLabelInput, .slideScaleSelectInput, .checkboxOther, .radioInputOther, .rankInput, .rankInput, .textquestionInput, .totalInput, .totalTotalInput, .selectOption, .selectInput, .freetextInput
+{
+
+}
+
+/* All tables */
+.checkboxTable, .radioScaleTable, .radioTable, .rankTable, .rankTable, .slideScaleLabelOffsetTable, .slideScaleLabelTable, .slideScaleSelectTable, .slideScaleTable, .textquestionTable, .totalTable{
+	width: 100%;
+}
+.slideScaleTable {
+	text-align: center;
+}
+
+/* All table rows */
+.checkboxTableRow1, .checkboxTableRow2, .checkboxTableRowNone1, .checkboxTableRowNone2, .checkboxTableRowOther1, .checkboxTableRowOther2, .radioScaleTableRow1, .radioScaleTableRow2, .radioTableRow1, .radioTableRow2, .radioTableRowNone1, .radioTableRowNone2, .radioTableRowOther1, .radioTableRowOther2, .rankTableRow1, .rankTableRow2, .slideScaleLabelOffsetTableRow, .slideScaleLabelTableRow, .slideScaleSelectTableRow, .slideScaleTableRow, .textquestionTableRow1, .textquestionTableRow2, .totalTableRow, .totalTableRow1, .totalTableRow2, .totalTableRowHead, .totalTableRowTotal, .selectTableRow1, .selectTableRow2{
+
+}
+
+
+/* All table row 1  <-- used to alternate background shading */
+.checkboxTableRow1, .checkboxTableRowNone1, .checkboxTableRowOther1, .radioScaleTableRow1, .radioTableRow1, .radioTableRowNone1, .radioTableRowOther1, .rankTableRow1, .textquestionTableRow1, .totalTableRow1, .selectTableRow1 {
+/*
+	background-color: #DBE6EE; - 4.17.08
+*/
+	background-color: #eef2fc;
+}
+
+/* All table row 2  <-- used to alternate background shading */
+.checkboxTableRow2, .checkboxTableRowNone2, .checkboxTableRowOther2, .radioScaleTableRow2, .radioTableRow2, .radioTableRowNone2, .radioTableRowOther2, .rankTableRow2, .textquestionTableRow2, .totalTableRow2, .selectTableRow2 {
+/*
+	background-color: #EFF3F8;
+*/
+	background-color: ffffff;
+}
+/* All table Cells */
+.checkboxTableCellInput, .checkboxTableCellInputNone, .checkboxTableCellInputOther, .checkboxTableCellOption, .checkboxTableCellOptionNone, .checkboxTableCellOptionOther, .radioScaleOption, .radioScaleScale, .radioScaleScaleOffset, .radioTableCellInput, .radioTableCellInputNone, .radioTableCellInputOther, .radioTableCellOption, .radioTableCellOptionNone, .radioTableCellOptionOther, .rankTableCellInput, .rankTableCellOption, .slideScaleLabelOffsetTableCell, .slideScaleLabelTableCell, .slideScaleSelectTableCell, .slideScaleSelectTableCellBottomLabel, .slideScaleSelectTableCellTopLabel, .slideScaleTableCell, .slideScaleTableCellBottomLabel, .slideScaleTableCellTopLabel, .textquestionTableCellInput, .textquestionTableCellOption14, .textquestionTableCellOption16, .textquestionTableCellOption17, .textquestionTableCellOption, .totalTableCell, .totalTableCell1, .totalTableCell2, .totalTableCellHead, .totalTableCellHead1, .totalTableCellHead2, .totalTableCellHeadBlank, .totalTableCellHeadTotal, .totalTableCellItem, .totalTableCellTotal, .totalTableCellTotal1, .totalTableCellTotal2, .totalTableCellTotalItem {
+
+}
+.radioScaleScale {
+	text-align: center;
+}
+.slideScaleTableCell, .slideScaleLabelTableCell, .slideScaleLabelOffsetTableCell  {
+	text-align: center;
+	color:	#333333;
+	font-size: 10px; 
+}
+.radioScaleOption {
+/*
+	font-weight: bold; -- 4.17.08
+*/
+	border-top: 1px solid #666666;
+	border-bottom: 1px solid #aaaaaa;
+}
+.slideScaleSelectTableCellBottomLabel, .slideScaleSelectTableCellTopLabel, .slideScaleTableCellBottomLabel, .slideScaleTableCellTopLabel {
+	text-align: center;
+	font-size: 10px;
+	color: #666666; /* #999999 */
+}
+.slideScaleSelectTableCellBottomLabel,  .slideScaleTableCellBottomLabel {
+	text-align: right;
+}
+.slideScaleTableCellMiddleLabel
+{
+	text-align: center;
+	font-size: 10px;
+	color: #666666; /* #999999 */
+}
+.slideScaleSelectTableCellTopLabel, .slideScaleTableCellTopLabel {
+	text-align: left;
+}
+.checkboxTableCellInput, .checkboxTableCellInputNone, .checkboxTableCellInputOther, .radioTableCellInput, .radioTableCellInputNone, .radioTableCellInputOther, .rankTableCellInput {
+	width: 20px;
+}
+
+.textquestionTableCellOption {
+	width: 100px;
+}
+
+.textquestionTableCellOption14 {
+	width: 200px;
+}
+
+.textquestionTableCellOption16 {
+	width: 400px;
+}
+
+.textquestionTableCellOption17 {
+	width: 300px;
+}
+
+
+.textquestionTableCellOption20070904 {
+	width: 400px;
+}
+
+.textquestionTableCellInput {
+ }
+ 
+ .totalTableCellHeadTotal, .totalTableCellTotalItem {
+ 	font-weight: bold;
+ }
+ .totalTotalInput {
+ 	border: none;
+ }
+/* miscellaneous spans */
+.textquestionInputUnit, .radioScaleNumber{
+
+}
+
+.rankTableCellOption {
+	font-weight: bold;
+}
+
+.radioScaleNumber {
+	font-weight: bold;
+}
+.img_buttons{
+  width:620px;height:40px;padding-top:10px;margin-top:10px;padding-right:10px;padding-left:10px
+}
+.radioScaleRowRankOption {
+	/*#CC9933
+	eac054
+#87abcd
+#81cd9c
+#fc9a86
+#bab170	
+	background-color:#eac054; -- old background 4.17.08
+	*/
+	background-color:#a2abb4;
+	color:#FFFFFF;
+	font-weight:normal;
+    	
+}
+.radioScaleRankOption {
+	font-size: 8pt;
+	color:#FFFFFF;
+/*
+	color:#000000; -- old font color 4.17.08
+*/
+	font-weight:bold;
+}
+/**
+.question, .subquestion, .message, .concept {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.question {
+  font-weight:bold;
+  text-align:center;
+  background-color:#CCDBE7;
+  border:1px solid #487DA4;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.subquestion {
+  font-weight:bold;
+  background-color:#EDEDE3;
+  border:1px solid gray;
+  width: 100%;
+}
+.subanswer {
+  padding-bottom: 15px;
+  text-align:center;
+}
+.message {
+  text-align:center;
+  background-color:#C7D8DF;
+  border:1px solid gray;
+  margin-bottom: 10px;
+}
+.concept {
+  background-color:#F5EFD3;
+  border:1px solid gray;
+  margin-bottom: 10px;
+}
+.concepthead{
+  text-align:center;
+  font-weight: bold;
+  font-size: 12px;
+}
+.headerbar {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.smalltext {
+  font-size: 10px;
+}
+.row1, .radioTableRow1 {
+	background-color: #DBDBDB;
+}
+.row2, .radioTableRow2 {
+	background-color: #E6E6E6;
+}
+.scalelabel{
+	font-size: 10px;
+	font-weight: bold;
+}
+.boldtext {
+	color: #990000;
+}
+.textlabel {
+	width: 75px;
+}
+**/

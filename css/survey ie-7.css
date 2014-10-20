@@ -1,0 +1,424 @@
+body {
+  	/*font-family: arial,helvetica,sans-serif;
+	*/
+	
+	font-size: 14px;	
+	
+}
+
+#header {	
+	position:fixed;
+	padding:10px;	
+	
+	width:100%;
+	
+	background-color:#c8c4c4;
+	overflow:hidden;
+	
+}
+
+#header img{
+	margin-left:10px;
+}
+.learnMore{
+	float:right;
+	display:none;
+	/*margin:0 85px 0 0;*/
+}
+.navigation{	
+		
+	/*width:200px;*/
+}
+
+#errorMsg{
+	display:block;
+}
+#main {
+	/*border: 11px solid #004D85;*/
+	/*background-color: #ffffff;*/
+	
+	margin-top:90px;			
+	/*margin:100px auto;*/
+}
+
+#reminder{
+	background-color: #FFCC00;
+	border:solid 1 #000000; 
+	width:100%;
+	
+}
+#questionarea {		
+	
+	overflow:hidden;
+	margin-bottom:100px;
+	/*height:1600px;*/
+}
+
+#questionarea .alert{
+	padding: 10px; 0 10px 0;
+}
+
+#questionarea .alert #error-Label{
+	margin: 10px; 0 10px 0;
+	font-size:26px;
+
+}
+
+.question {
+	
+	width: 100%;
+	background-color:#3c67cc;
+	
+	padding:10px;
+	border-bottom:0px;
+	/*border-top-left-radius:10px;
+	border-top-right-radius:10px;*/
+
+	font-weight: bold;
+	color:#FFFFFF;
+}
+.answer {
+  width: 100%;  
+  padding:7px;
+  margin-bottom:30px;
+
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	background-color: #eef2fc;
+}
+
+.answer table td {
+	padding:4px 4px 4px 5px;
+	font-family:arial,helvetica,sans-serif;
+	font-size:13px;	
+	
+}
+.answer table label{
+	padding:3px 0 3px 0;
+}
+
+textarea, input {
+  font-family:arial,helvetica,sans-serif;
+  font-size:13px;
+  padding:5px;
+  border-radius:5px;
+}
+
+
+textarea {
+	width: 94%;
+	height: 50px;
+}
+
+
+
+
+footer{
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:55px;
+   width:100%;
+   padding-top:15px;
+   margin-top:100px;
+   background-color:#c8c4c4;
+}
+
+.footer-navigate{
+	padding-top:20px;
+	
+}
+
+
+.totalTable tr:nth-child(even), .checkboxTable tr:nth-child(even){
+	background-color: #eef2fc;
+}
+
+.totalTable tr:nth-child(odd), .checkboxTable tr:nth-child(odd){
+	background-color: ffffff;
+}
+
+.radioTable tr:nth-child(even), .checkboxTable tr:nth-child(even){
+	background-color: #eef2fc;
+}
+
+.radioTable tr:nth-child(odd), .checkboxTable tr:nth-child(odd){
+	background-color: ffffff;
+}
+
+.radioTable label, .checkboxTable label{
+	width:90%;
+}
+
+.checkboxTableCellOptionOther label{
+	width:70%;
+}
+
+.textquestionTable input{
+	margin:5px 0 5px 0;
+}
+
+/*.radioScaleTable tr:not(:nth-child(1):nth-child(even)){*/
+.radioScaleTable tr:nth-child(odd):not(:nth-child(1)){
+	background-color: #eef2fc;
+	
+}
+
+.radioScaleTable tr:nth-child(even):not(:nth-child(1)){
+	background-color: ffffff;
+}
+.radioTableCellInput{
+	padding:8px 0 8px 0;
+}
+
+.slideScaleTable label {
+	font-family:arial,helvetica,sans-serif;
+	font-size:11px;	
+}
+
+/* All divs */
+.concept, .message, .interviewer {
+  padding: 10px 20px 20px 10px;  
+}
+
+.concept {
+	width:100%;
+  background-color:#F5EFD3;
+  border:1px solid gray;
+  margin-bottom: 10px;
+}
+.concepthead {
+  font-weight: bold;
+  color: #004D85;
+}
+.conceptpicture {
+  border: 1px solid gray; 
+  margin-left: 10px;
+}
+.message {
+  text-align:center;
+  background-color:#C7D8DF;
+  border:1px solid gray;
+  margin-bottom: 10px;
+}
+
+.interviewer {
+	font-style: italic;
+	color: #666666;
+	background-color:#EAEAEA;
+	border:1px solid #487DA4;
+}
+/* All form elements */
+.checkboxInput, .totalNoneInput, .radioInput, .radioSlideScaleLabelOffsetInput, .slideScaleInput, .slideScaleLabelInput, .slideScaleSelectInput, .checkboxOther, .radioInputOther, .rankInput, .rankInput, .textquestionInput, .totalInput, .totalTotalInput, .selectOption, .selectInput, .freetextInput
+{
+
+}
+
+/* All tables */
+.checkboxTable, .radioScaleTable, .radioTable, .rankTable, .rankTable, .slideScaleLabelOffsetTable, .slideScaleLabelTable, .slideScaleSelectTable, .slideScaleTable, .textquestionTable, .totalTable{
+	width: 100%;
+}
+.slideScaleTable {
+	text-align: center;
+}
+
+/* All table rows */
+.checkboxTableRow1, .checkboxTableRow2, .checkboxTableRowNone1, .checkboxTableRowNone2, .checkboxTableRowOther1, .checkboxTableRowOther2, .radioScaleTableRow1, .radioScaleTableRow2, .radioTableRow1, .radioTableRow2, .radioTableRowNone1, .radioTableRowNone2, .radioTableRowOther1, .radioTableRowOther2, .rankTableRow1, .rankTableRow2, .slideScaleLabelOffsetTableRow, .slideScaleLabelTableRow, .slideScaleSelectTableRow, .slideScaleTableRow, .textquestionTableRow1, .textquestionTableRow2, .totalTableRow, .totalTableRow1, .totalTableRow2, .totalTableRowHead, .totalTableRowTotal, .selectTableRow1, .selectTableRow2{
+
+}
+
+
+/* All table row 1  <-- used to alternate background shading */
+.checkboxTableRow1, .checkboxTableRowNone1, .checkboxTableRowOther1, .radioScaleTableRow1, .radioTableRow1, .radioTableRowNone1, .radioTableRowOther1, .rankTableRow1, .textquestionTableRow1, .totalTableRow1, .selectTableRow1 {
+/*
+	background-color: #DBE6EE; - 4.17.08
+*/
+	background-color: #eef2fc;
+}
+
+/* All table row 2  <-- used to alternate background shading */
+.checkboxTableRow2, .checkboxTableRowNone2, .checkboxTableRowOther2, .radioScaleTableRow2, .radioTableRow2, .radioTableRowNone2, .radioTableRowOther2, .rankTableRow2, .textquestionTableRow2, .totalTableRow2, .selectTableRow2 {
+/*
+	background-color: #EFF3F8;
+*/
+	background-color: #ffffff;
+}
+/* All table Cells */
+.checkboxTableCellInput, .checkboxTableCellInputNone, .checkboxTableCellInputOther, .checkboxTableCellOption, .checkboxTableCellOptionNone, .checkboxTableCellOptionOther, .radioScaleOption, .radioScaleScale, .radioScaleScaleOffset, .radioTableCellInput, .radioTableCellInputNone, .radioTableCellInputOther, .radioTableCellOption, .radioTableCellOptionNone, .radioTableCellOptionOther, .rankTableCellInput, .rankTableCellOption, .slideScaleLabelOffsetTableCell, .slideScaleLabelTableCell, .slideScaleSelectTableCell, .slideScaleSelectTableCellBottomLabel, .slideScaleSelectTableCellTopLabel, .slideScaleTableCell, .slideScaleTableCellBottomLabel, .slideScaleTableCellTopLabel, .textquestionTableCellInput, .textquestionTableCellOption, .totalTableCell, .totalTableCell1, .totalTableCell2, .totalTableCellHead, .totalTableCellHead1, .totalTableCellHead2, .totalTableCellHeadBlank, .totalTableCellHeadTotal, .totalTableCellItem, .totalTableCellTotal, .totalTableCellTotal1, .totalTableCellTotal2, .totalTableCellTotalItem, .textquestionTableCellOption14, .textquestionTableCellOption16,textquestionTableCellOption17 {
+
+}
+.radioScaleScale {
+	text-align: center;
+}
+.slideScaleTableCell, .slideScaleLabelTableCell, .slideScaleLabelOffsetTableCell  {
+	text-align: center;
+	color:	#333333;
+	font-size: 10px; 
+}
+.radioScaleOption {
+/*
+	font-weight: bold; -- 4.17.08
+*/
+	/*border-top: 1px solid #666666;*/
+	/*border-bottom: 1px solid #aaaaaa;*/
+}
+.slideScaleSelectTableCellBottomLabel, .slideScaleSelectTableCellTopLabel, .slideScaleTableCellBottomLabel, .slideScaleTableCellTopLabel {
+	text-align: center;
+	font-size: 10px;
+	color: #666666; /* #999999 */
+}
+.slideScaleSelectTableCellBottomLabel,  .slideScaleTableCellBottomLabel {
+	text-align: right;
+}
+.slideScaleTableCellMiddleLabel
+{
+	text-align: center;
+	font-size: 10px;
+	color: #666666; /* #999999 */
+}
+.slideScaleSelectTableCellTopLabel, .slideScaleTableCellTopLabel {
+	text-align: left;
+}
+.checkboxTableCellInput, .checkboxTableCellInputNone, .checkboxTableCellInputOther, .radioTableCellInput, .radioTableCellInputNone, .radioTableCellInputOther, .rankTableCellInput {	
+	width: 20px;
+}
+
+
+.textquestionTableCellOption {
+	width: 100px;
+}
+
+
+.textquestionTableCellOption14 {
+	width: 200px;
+}
+
+.textquestionTableCellOption16 {
+	width: 400px;
+}
+
+.textquestionTableCellOption17 {
+	width: 300px;
+}
+
+.textquestionTableCellOption20070904 {
+	width: 400px;
+}
+
+.textquestionTableCellInput {
+ }
+ 
+ .totalTableCellHeadTotal, .totalTableCellTotalItem {
+ 	font-weight: bold;
+ }
+ .totalTotalInput {
+ 	border: none;
+ }
+/* miscellaneous spans */
+.textquestionInputUnit, .radioScaleNumber{
+
+}
+
+.rankTableCellOption {
+	font-weight: bold;
+}
+
+.radioScaleNumber {
+	font-weight: bold;
+}
+
+.radioScaleRowRankOption {
+	/*#CC9933
+	eac054
+#87abcd
+#81cd9c
+#fc9a86
+#bab170	
+	background-color:#eac054; -- old background 4.17.08
+	*/
+	background-color:#a2abb4;
+	color:#FFFFFF;
+	font-weight:normal;
+    	
+}
+.img_buttons
+{
+	width:100%;margin-top:10px;padding-right:10px;padding-left:10px
+}
+.radioScaleRankOption {
+	font-size: 8pt;
+	color:#FFFFFF;
+/*
+	color:#000000; -- old font color 4.17.08
+*/
+	font-weight:bold;
+}
+/**
+.question, .subquestion, .message, .concept {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.question {
+  font-weight:bold;
+  text-align:center;
+  background-color:#CCDBE7;
+  border:1px solid #487DA4;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.subquestion {
+  font-weight:bold;
+  background-color:#EDEDE3;
+  border:1px solid gray;
+  width: 100%;
+}
+.subanswer {
+  padding-bottom: 15px;
+  text-align:center;
+}
+.message {
+  text-align:center;
+  background-color:#C7D8DF;
+  border:1px solid gray;
+  margin-bottom: 10px;
+}
+.concept {
+  background-color:#F5EFD3;
+  border:1px solid gray;
+  margin-bottom: 10px;
+}
+.concepthead{
+  text-align:center;
+  font-weight: bold;
+  font-size: 12px;
+}
+.headerbar {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.smalltext {
+  font-size: 10px;
+}
+.row1, .radioTableRow1 {
+	background-color: #DBDBDB;
+}
+.row2, .radioTableRow2 {
+	background-color: #E6E6E6;
+}
+.scalelabel{
+	font-size: 10px;
+	font-weight: bold;
+}
+.boldtext {
+	color: #990000;
+}
+.textlabel {
+	width: 75px;
+}
+**/

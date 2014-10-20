@@ -1,0 +1,46 @@
+---------
+SCT survey
+Version 1.2 Beta
+---------
+
+A. Current version Features
+A.1 Front end
+	1. Responsive behavior on different screen sizes.
+	2. Older browser compatibility.
+	3. Error message summary on top of page.
+	4. Error highlighting on options.
+	5. Next button improved. (Removed reset button)
+	6. Animate return to top of page when error occured.
+
+A.2 Back end
+	1. Modify image mouse over function.
+	2. TOTAL control includes required zero input function.
+	3. RADIOSCALE fix disabled radio button when begin num is 0
+
+
+B. Controls available
+   (? is untested)
+
+1. Text question
+   - one option
+   - multiple options
+2. Select one
+   - with other
+   - with none
+3. 
+   Select all
+   - with other
+   - with none
+
+   Select all columns
+   - with other?
+4. Select max
+5. Radio no_num grid
+   - with other
+   - with multiple others.
+6. Radio no_num grid column oriented
+7. Radio Scale
+   - with other
+   - with scalebox
+8. Free Text
+9. Total Control
